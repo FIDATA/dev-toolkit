@@ -30,7 +30,7 @@ path, and Maven `bin` directory should be included in `PATH`.
 
 	Download page: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html.
 
-	Mose Linux users use OpenSSH: http://www.openssh.org/.
+	Most Linux users use OpenSSH: http://www.openssh.org/.
 
 	Environment variables: sftp client should be accessible from command
 line.
@@ -87,7 +87,7 @@ line.
 
 4.	Python 3
 
-	I use Python 3.3 and I'm not sure about workability with other
+	I use Python 3.3 and I'm not sure about ability to work with other
 versions.
 
 	Download page: http://python.org/download/.
@@ -116,7 +116,7 @@ you have to install them manually using the following steps:
 Software Sites (Preferences -> Install/Update -> Available Software
 Files).
 
-	2.	Using Help -> Install New Sofware, install the following
+	2.	Using Help -> Install New Software, install the following
 plugins:
 		*	Mylyn Tasks Connector: Mantis
 		*	Google Code Mylyn Connector Feature
