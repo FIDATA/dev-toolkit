@@ -21,8 +21,8 @@ path, and Java `bin` directory should be included in `PATH`.
 
 	Download page: http://maven.apache.org/download.cgi.
 
-	Environment variables: Maven `bin` directory should be included in
-`PATH`.
+	Environment variables: `M2_HOME` should be set to Maven installation
+path, and Maven `bin` directory should be included in `PATH`.
 
 3.	SFTP client
 
@@ -42,6 +42,9 @@ line.
 5.	Qt Installer Framework
 
 	Download page: http://download.qt-project.org/official_releases/qt-installer-framework/.
+
+	Environment variables: Qt Installer Framework `bin` directory
+should be included in `PATH`.
 
 6.	Git client
 
@@ -94,10 +97,10 @@ installation path, and this path should also be included in `PATH`.
 
 5.	Eclipse (custom configuration)
 
-	Using Yoxos, I've made custom Eclipse configuration for development
-of FIDATA. You can freely (registration is required) download it for
-your platform from
-https://yoxos.eclipsesource.com/userdata/profile/0ff9e65119e71c770a9200891ba741ed
+	Using Yoxos, I've made FIDATA Eclipse, custom Eclipse
+configuration for development of FIDATA. You can freely (registration
+is required) download it for your platform from
+https://yoxos.eclipsesource.com/userdata/profile/ce4122db97d0e3997ad7040db041d755
 
 	Otherwise, if you have Yoxos Launcher >= 5.4.3 installed, you can
 open file `FIDATA.yoxos` from this repository.
