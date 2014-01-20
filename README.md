@@ -1,7 +1,7 @@
-protrader.dev-toolkit
-=====================
+FIDATA.dev-toolkit
+==================
 
-Toolkit for building or development of ProTrader.
+Environment for building and development of FIDATA.
 
 Build environment:
 ------------------
@@ -21,9 +21,10 @@ path, and Java `bin` directory should be included in `PATH`.
 
 	Download page: http://maven.apache.org/download.cgi.
 
-	Environment variables: Maven `bin` directory should be included in `PATH`.
+	Environment variables: Maven `bin` directory should be included in
+`PATH`.
 
-3.	SSH client
+3.	SFTP client
 
 	Under Windows I use PuTTy.
 
@@ -31,7 +32,7 @@ path, and Java `bin` directory should be included in `PATH`.
 
 	Mose Linux users use OpenSSH: http://www.openssh.org/.
 
-	Environment variables: ssh client should be accessible from command
+	Environment variables: sftp client should be accessible from command
 line.
 
 4.	CMake
@@ -41,6 +42,18 @@ line.
 5.	Qt Installer Framework
 
 	Download page: http://download.qt-project.org/official_releases/qt-installer-framework/.
+
+6.	Git client
+
+	Under Windows I prefer Git for Windows + TortoiseGit.
+
+	Download pages:
+	*	http://code.google.com/p/msysgit/downloads/list?q=full+installer+official+git;
+	*	http://code.google.com/p/tortoisegit/wiki/Download.
+
+	Environment variables: `git` should be accessible from command
+line.
+
 
 Development environment:
 ------------------------
@@ -60,28 +73,38 @@ Eclipse configuration (see below) is made with
 
 2.	Everything else for build (see above)
 
-3.	Python 3
+3.	Mercurial client
 
-	I use Python 3.3 and I'm not sure about workability with other versions.
+	Under Windows I use TortoiseHg.
+
+	Download page: http://tortoisehg.bitbucket.org/download/index.html.
+
+	Environment variables: `hg` should be accessible from command
+line.
+
+4.	Python 3
+
+	I use Python 3.3 and I'm not sure about workability with other
+versions.
 
 	Download page: http://python.org/download/.
 
 	Environment variables: `PYTHONHOME` should be set to Python
 installation path, and this path should also be included in `PATH`.
 
-4.	Eclipse (custom configuration)
+5.	Eclipse (custom configuration)
 
 	Using Yoxos, I've made custom Eclipse configuration for development
-of ProTrader. You can freely (registration is required) download it for
+of FIDATA. You can freely (registration is required) download it for
 your platform from
 https://yoxos.eclipsesource.com/userdata/profile/0ff9e65119e71c770a9200891ba741ed
 
 	Otherwise, if you have Yoxos Launcher >= 5.4.3 installed, you can
-open file `ProTrader.yoxos` from this repository.
+open file `FIDATA.yoxos` from this repository.
 
 	After unpacking make the first run, it takes some time.
 
-5.	Additional plugins for Eclipse
+6.	Additional plugins for Eclipse
 
 	Unfortunately, some required plugins aren't provided by Yoxos, and
 you have to install them manually using the following steps:
@@ -90,10 +113,10 @@ you have to install them manually using the following steps:
 Software Sites (Preferences -> Install/Update -> Available Software
 Files).
 
-	2.	Using Help -> Install New Sofware, install the following plugins:
+	2.	Using Help -> Install New Sofware, install the following
+plugins:
 		*	Mylyn Tasks Connector: Mantis
 		*	Google Code Mylyn Connector Feature
-		*	Bazaar Team Provider
 		*	CMake Editor
 		*	StatET for R
 		*	ShellEd
@@ -113,8 +136,65 @@ following plugins:
 
 	I also recommend to check for updates (Help -> Check for Updates).
 
-6.	yEd Graph Editor >= 3.11
+7.	yEd Graph Editor >= 3.11
 
-	It isn't open source, but free of charge.
+	It's suited for creation of nice graphs, and it stores them in
+GraphML format. It isn't open source, but free of charge.
 
-	Download page: http://www.yworks.com/en/products_yed_download.html.
+	Download page: http://www.yworks.com/en/downloads.html#yEd. Get
+version without JRE included.
+
+### Optional features
+
+1.	Subversion client
+
+	Under Windows I use TortoiseSVN with switched-on 'command line
+client tools' feature.
+
+	Download page: http://tortoisesvn.net/downloads.html.
+
+	Environment variables: `svn` should be accessible from command
+line.
+
+2.	CVS client
+
+	Under Windows I use TortoiseCVS.
+
+	Download page: http://www.tortoisecvs.org/download.shtml.
+
+	Environment variables: `cvs` should be accessible from command
+line.
+
+3.	Bazaar client
+	*	Bazaar
+
+		Download page: https://launchpad.net/bzr/+download.
+
+		Since Bazaar is based on Python 2, Standalone Installer is
+required.
+
+		Environment variables: `bzr` should be accessible from command
+line.
+	*	Eclipse plugin: Bazaar Team Provider
+
+4.	Console text editor
+
+	For editing commit messages I prefer Nano, which is available under
+both Windows and Linux.
+
+	Download page: http://www.nano-editor.org/download.php.
+
+	Environment variables: set `EDITOR` to be pointed to Nano (or other
+editor), so it can be used by git (and maybe other VCSs) for editing
+commit messages.
+
+
+------------------------------------------------------------------------
+This is part of FIDATA.
+
+Copyright © 2013, 2014  Basil Peace
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.  This file is offered as-is,
+without any warranty.
