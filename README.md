@@ -120,7 +120,6 @@ Files).
 plugins:
 		*	Mylyn Tasks Connector: Mantis (it's needed if you want to
 work with my private bug tracker, located at http://grv87.ftp.sh/bugs/)
-		*	Google Code Mylyn Connector Feature
 		*	CMake Editor
 		*	StatET for R
 		*	ShellEd
