@@ -193,9 +193,9 @@ commit messages.
 
 
 ------------------------------------------------------------------------
-This is part of FIDATA.
-
 Copyright © 2013, 2014  Basil Peace
+
+This is part of FIDATA.
 
 Copying and distribution of this file, with or without modification,
 are permitted in any medium without royalty provided the copyright
