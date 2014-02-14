@@ -92,8 +92,8 @@ versions.
 
 	Download page: http://python.org/download/.
 
-	Environment variables: `PYTHONHOME` should be set to Python
-installation path, and this path should also be included in `PATH`.
+	Environment variables: Python installation directory should be
+included in `PATH`.
 
 5.	Eclipse (custom configuration)
 
