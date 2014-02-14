@@ -15,14 +15,14 @@ need more fresh version. The latest update is highly recommended
 	Download page: http://www.oracle.com/technetwork/java/javase/downloads/index.html.
 
 	Environment variables: `JAVA_HOME` should be set to JDK installation
-path, and Java `bin` directory should be included in `PATH`.
+directory, and Java `bin` directory should be included in `PATH`.
 
 2.	Apache Maven
 
 	Download page: http://maven.apache.org/download.cgi.
 
 	Environment variables: `M2_HOME` should be set to Maven installation
-path, and Maven `bin` directory should be included in `PATH`.
+directory, and Maven `bin` directory should be included in `PATH`.
 
 3.	SFTP client
 
