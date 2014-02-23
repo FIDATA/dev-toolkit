@@ -203,6 +203,7 @@ work with my private bug tracker (see below))
 		*	JSON Editor Plugin
 		*	ReST Editor
 		*	GFM Viewer Feature
+		*	Doxia Editors Feature
 		*	WFE Wordfile Editor
 
 	3.	Using Help -> Install Papyrus Additional Components, install the
