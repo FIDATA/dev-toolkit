@@ -78,6 +78,57 @@ should be included in `PATH`.
 line.
 
 
+### Build environment for documentation:
+
+7.	LuaLaTeX and required packages
+
+	For Windows I recommend TeX Live.
+
+	Download page: http://tug.org/texlive/acquire-netinstall.html.
+
+	Environment variables: `lualatex`, `latexmk`, `makeindex` and other
+LaTeX executables should be accessible from command line.
+
+	If you use custom distribution, at least the following packages are
+required:
+	*	latexmk
+	*	geometry
+	*	graphicx
+	*	caption
+	*	color
+	*	array
+	*	ragged2e
+	*	longtable
+	*	dcolumn
+	*	fancyhdr
+	*	natbib
+	*	fontspec
+	*	amsfonts
+	*	amsmath
+	*	unicode-math
+	*	url
+	*	hyperref
+	*	lipsum
+
+	This list is not thorough. Rely on errors from LuaLaTeX/Latexmk
+for resolving other requirements.
+
+	TeX Live full installation contains all requirements.
+
+8.	Haskell
+
+	Haskell is required by pandoc.
+
+	Download page: http://www.haskell.org/platform/.
+
+9.	Pandoc
+
+	Download page: http://johnmacfarlane.net/pandoc/installing.html.
+
+	Environment variables: `pandoc` should be accessible from command
+line.
+
+
 Development environment:
 ------------------------
 
