@@ -97,6 +97,7 @@ LaTeX executables should be accessible from command line.
 	If you use custom distribution, at least the following packages are
 required:
 	*	latexmk
+	*	docstrip
 	*	geometry
 	*	graphicx
 	*	caption
