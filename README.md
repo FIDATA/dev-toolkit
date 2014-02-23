@@ -1,4 +1,4 @@
-FIDATA.dev-toolkit
+FIDATA dev-toolkit
 ==================
 
 Environment for building and development of FIDATA.
