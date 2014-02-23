@@ -9,9 +9,9 @@ Build environment:
 
 1.	Java SE Development Kit
 
-	Maven requires JDK 5 or later. For development (see below) you need
-more fresh version. The latest update is highly recommended
-([security]).
+	Both Maven and Gradle require JDK 5 or later. For development (see
+below) you need more fresh version. The latest update is highly
+recommended ([security]).
 
 	There are two most popular implementations:
 	*	Oracle JDK
@@ -45,16 +45,19 @@ directory, and Java `bin` directory should be included in `PATH`.
 	Environment variables: `M2_HOME` should be set to Maven installation
 directory, and Maven `bin` directory should be included in `PATH`.
 
-3.	SFTP client
+3.	Gradle
 
-	Under Windows I use PuTTy.
+	At least 1.7 version is required.
 
-	Download page:
-http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html.
+	Download page: http://www.gradle.org/downloads.
 
-	Most Linux users use OpenSSH: http://www.openssh.org/.
+	Gradle additional plugins (will be installed automatically):
+	*	artifactory-publish
 
-	Environment variables: sftp client should be accessible from command
+		Homepage:
+http://www.jfrog.com/confluence/display/RTF/Gradle+1.6+Publishing+Artifactory+Plugin
+
+	Environment variables: `gradle` should be accessible from command
 line.
 
 4.	CMake
@@ -195,6 +198,7 @@ Files).
 plugins:
 		*	Mylyn Tasks Connector: Mantis (it's needed if you want to
 work with my private bug tracker, located at http://grv87.ftp.sh/bugs/)
+		*	Gradle IDE
 		*	CMake Editor
 		*	StatET for R
 		*	ShellEd
