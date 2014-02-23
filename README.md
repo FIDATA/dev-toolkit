@@ -213,6 +213,40 @@ editor), so it can be used by git (and maybe other VCSs) for editing
 commit messages.
 
 
+Links for Development Team
+--------------------------
+*	FIDATA organization on GitHub, including all source repositories
+
+	https://github.com/FIDATA/
+
+*	Private bug tracker
+
+	[Mantis](http://grv87.ftp.sh/bugs/)
+
+*	Yoxos FIDATA Eclipse Profile
+
+	https://yoxos.eclipsesource.com/userdata/profile/ce4122db97d0e3997ad7040db041d755
+
+*	Continuous Integration System
+
+	[Jenkins](http://grv87.ftp.sh:8082/)
+
+*	Continuous Inspection of Code Quality Tool
+
+	[SonarQube](http://grv87.ftp.sh:9000/)
+
+*	Artifact Repository Manager
+
+	[Artifactory](http://grv87.ftp.sh:8081/)
+
+Please note, that grv87.ftp.sh is the DDNS address of my home
+computer (hosted by [FreeDNS](https://freedns.afraid.org/)). Please,
+don't abuse that. Also, although my PC is usually switched-on 24/7,
+it is not [highly available]
+(http://en.wikipedia.org/wiki/High_availability). I can have maintenance
+hours and power and network outages.
+
+
 ------------------------------------------------------------------------
 Copyright © 2013, 2014  Basil Peace
 
