@@ -8,11 +8,31 @@ Build environment:
 
 1.	Java SE Development Kit
 
-	Maven requires JDK 1.5 or later. For development (see below) you
-need more fresh version. The latest update is highly recommended
+	Maven requires JDK 5 or later. For development (see below) you need
+more fresh version. The latest update is highly recommended
 ([security]).
 
-	Download page: http://www.oracle.com/technetwork/java/javase/downloads/index.html.
+	There are two most popular implementations:
+	*	Oracle JDK
+		*	It is known as more stable and having fewer bugs.
+		Download page:
+http://www.oracle.com/technetwork/java/javase/downloads/index.html.
+	*	OpenJDK
+		*	New versions of Oracle JDK are based on OpenJDK.
+			See [Henrik Stahl. Moving to OpenJDK as the official Java SE
+7 Reference Implementation]
+(https://blogs.oracle.com/henrik/entry/moving_to_openjdk_as_the).
+
+			However, it is claimed to be less stable.
+		*	It is licensed under GPLv2 with the Classpath Exception.
+
+		Download page for Linux: http://openjdk.java.net/install/.
+
+		Unofficial builds for Windows from Alex Kasko (updated with some
+lag): https://bitbucket.org/alexkasko/openjdk-unofficial-builds/.
+
+	In development I use OpenJDK for it is FOSS. If you have some
+troubles, try Oracle's distribution.
 
 	Environment variables: `JAVA_HOME` should be set to JDK installation
 directory, and Java `bin` directory should be included in `PATH`.
@@ -61,13 +81,14 @@ line.
 Development environment:
 ------------------------
 
-1.	Java SE Development Kit 1.7
-	*	Eclipse Kepler (4.3) requires JRE 1.4 or later, and 1.5 is
-recommended.
-	*	PyDev requires 1.7.
-	*	yEd requires JRE 1.6 or later.
+1.	Java SE Development Kit 7
+	*	Eclipse Kepler (4.3), including Java Development Tools, requires
+JRE 4 or later, and 5 is recommended.
+	*	PyDev requires JDK 7 (see e.g.
+http://stackoverflow.com/a/20604456/2576070).
+	*	yEd requires JRE 6 or later.
 
-	So, development environment in total requires JDK 1.7. Custom
+	So, development environment in total requires JDK 7. Custom
 Eclipse configuration (see below) is made with
 
 		-Dosgi.requiredJavaVersion=1.7
