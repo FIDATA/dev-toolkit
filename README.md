@@ -3,6 +3,7 @@ FIDATA.dev-toolkit
 
 Environment for building and development of FIDATA.
 
+
 Build environment:
 ------------------
 
@@ -48,7 +49,8 @@ directory, and Maven `bin` directory should be included in `PATH`.
 
 	Under Windows I use PuTTy.
 
-	Download page: http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html.
+	Download page:
+http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html.
 
 	Most Linux users use OpenSSH: http://www.openssh.org/.
 
@@ -61,7 +63,8 @@ line.
 
 5.	Qt Installer Framework
 
-	Download page: http://download.qt-project.org/official_releases/qt-installer-framework/.
+	Download page:
+http://download.qt-project.org/official_releases/qt-installer-framework/.
 
 	Environment variables: Qt Installer Framework `bin` directory
 should be included in `PATH`.
@@ -218,6 +221,7 @@ GraphML format. It isn't open source, but free of charge.
 
 	Download page: http://www.yworks.com/en/downloads.html#yEd. Get
 version without JRE included.
+
 
 ### Optional features
 
