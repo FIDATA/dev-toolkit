@@ -170,7 +170,7 @@ versions.
 	Environment variables: Python installation directory should be
 included in `PATH`.
 
-5.	Eclipse (custom configuration)
+5.	Eclipse (custom configuration FIDATA Eclipse)
 
 	Using Yoxos, I've made FIDATA Eclipse, custom Eclipse
 configuration for development of FIDATA. You can freely (registration
