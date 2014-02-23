@@ -45,9 +45,7 @@ directory, and Java `bin` directory should be included in `PATH`.
 	Environment variables: `M2_HOME` should be set to Maven installation
 directory, and Maven `bin` directory should be included in `PATH`.
 
-3.	Gradle
-
-	At least 1.7 version is required.
+3.	Gradle >= 1.7
 
 	Download page: http://www.gradle.org/downloads.
 
@@ -197,7 +195,7 @@ Files).
 	2.	Using Help -> Install New Software, install the following
 plugins:
 		*	Mylyn Tasks Connector: Mantis (it's needed if you want to
-work with my private bug tracker, located at http://grv87.ftp.sh/bugs/)
+work with my private bug tracker (see below))
 		*	Gradle IDE
 		*	CMake Editor
 		*	StatET for R
