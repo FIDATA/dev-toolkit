@@ -49,7 +49,8 @@ directory, and Maven `bin` directory should be included in `PATH`.
 
 	Download page: http://www.gradle.org/downloads.
 
-	Gradle additional plugins (will be installed automatically):
+	Gradle additional plugins (will be installed automatically during
+build):
 	*	artifactory-publish
 
 		Homepage:
