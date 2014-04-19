@@ -9,7 +9,7 @@
    <site url="https://sourceforge.net/projects/shelled/files/shelled/update/" selected="true" name="ShellEd"/>
    <site url="https://sourceforge.net/projects/eclipsejsonedit/files/update" selected="true" name="JSON Editor"/>
    <site url="http://resteditor.sourceforge.net/eclipse/" selected="true" name="ReST Editor"/>
-   <site url="https://dl.bintray.com/satyagraha/generic/1.8.1/" selected="true" name="GitHub Flavored Markdown Viewer "/>
+   <site url="https://dl.bintray.com/satyagraha/generic/1.8.1/" selected="true" name="GitHub Flavored Markdown Viewer"/>
    <site url="http://maven.apache.org/doxia/doxia-ide/eclipse/eclipse/" selected="true" name="Doxia Editors"/>
    <site url="http://ksquared.de/wfe/eclipse/update/" selected="true" name="WFE Wordfile Editor"/>
 </bookmarks>
