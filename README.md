@@ -155,15 +155,6 @@ Eclipse configuration (see below) is made with
 
 2.	Everything else for build (see above)
 
-3.	Mercurial client
-
-	Under Windows I use TortoiseHg.
-
-	Download page: http://tortoisehg.bitbucket.org/download/index.html.
-
-	Environment variables: `hg` should be accessible from command
-line.
-
 4.	Python 3
 
 	I use Python 3.3 and I'm not sure about ability to work with other
@@ -231,38 +222,7 @@ version without JRE included.
 
 ### Optional features
 
-1.	Subversion client
-
-	Under Windows I use TortoiseSVN with switched-on 'command line
-client tools' feature.
-
-	Download page: http://tortoisesvn.net/downloads.html.
-
-	Environment variables: `svn` should be accessible from command
-line.
-
-2.	CVS client
-
-	Under Windows I use TortoiseCVS.
-
-	Download page: http://www.tortoisecvs.org/download.shtml.
-
-	Environment variables: `cvs` should be accessible from command
-line.
-
-3.	Bazaar client
-	*	Bazaar
-
-		Download page: https://launchpad.net/bzr/+download.
-
-		Since Bazaar is based on Python 2, Standalone Installer is
-required.
-
-		Environment variables: `bzr` should be accessible from command
-line.
-	*	Eclipse plugin: Bazaar Team Provider
-
-4.	Console text editor
+1.	Console text editor
 
 	For editing commit messages I prefer Nano, which is available under
 both Windows and Linux.
