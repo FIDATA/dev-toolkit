@@ -181,23 +181,23 @@ Files).
 
 	2.	Using Help -> Install New Software, install the following
 plugins:
-		*	Mylyn Tasks Connector: Mantis (it's needed if you want to
+		1.	Mylyn Tasks Connector: Mantis (it's needed if you want to
 work with my private bug tracker (see below))
-		*	Gradle IDE
-		*	CMake Editor
-		*	StatET for R
-		*	ShellEd
-		*	JSON Editor Plugin
-		*	ReST Editor
-		*	GFM Viewer Feature
-		*	Doxia Editors Feature
-		*	WFE Wordfile Editor
+		2.	Gradle IDE
+		3.	CMake Editor
+		4.	StatET for R
+		5.	ShellEd
+		6.	JSON Editor Plugin
+		7.	ReST Editor
+		8.	GFM Viewer Feature
+		9.	Doxia Editors Feature
+		10.	WFE Wordfile Editor
 
 	3.	Using Help -> Install Papyrus Additional Components, install the
 following plugins:
-		*	MARTE 1.1
-		*	UML-RT
-		*	Diagram generation
+		1.	MARTE 1.1
+		2.	UML-RT
+		3.	Diagram generation
 
 	Environment variables: I recommend to include Eclipse's directory in
 `PATH`, however, at present it is not required.
