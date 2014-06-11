@@ -49,13 +49,6 @@ directory, and Maven `bin` directory should be included in `PATH`.
 
 	Download page: http://www.gradle.org/downloads.
 
-	Gradle additional plugins (will be installed automatically during
-build):
-	*	artifactory-publish
-
-		Homepage:
-http://www.jfrog.com/confluence/display/RTF/Gradle+1.6+Publishing+Artifactory+Plugin
-
 	Environment variables: `gradle` should be accessible from command
 line.
 
