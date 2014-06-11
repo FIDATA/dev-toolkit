@@ -98,6 +98,7 @@ LaTeX executables should be accessible from command line.
 required:
 	*	latexmk
 	*	docstrip
+	*	ltxdoc
 	*	geometry
 	*	graphicx
 	*	caption
