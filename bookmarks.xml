@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bookmarks>
    <site url="http://mylyn-mantis.sourceforge.net/eclipse/update/" selected="true" name="Mylyn-Mantis Connector"/>
-   <site url="http://bzreclipse.org/update-site/" selected="true" name="bzr-eclipse"/>
    <site url="http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/kepler/" selected="false" name="Papyrus Additional Components"/>
    <site url="http://dist.springsource.com/release/TOOLS/gradle" selected="true" name="Gradle IDE"/>
    <site url="http://cmakeed.sourceforge.net/eclipse/" selected="true" name="CMake Editor"/>
