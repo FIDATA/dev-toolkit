@@ -148,10 +148,7 @@ Eclipse configuration (see below) is made with
 
 2.	Everything else for build (see above)
 
-4.	Python 3
-
-	I use Python 3.3 and I'm not sure about ability to work with other
-versions.
+4.	Python 3.3 or later
 
 	Download page: http://python.org/download/.
 
