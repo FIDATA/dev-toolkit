@@ -180,7 +180,6 @@ Files).
 plugins:
 		1.	Mylyn Tasks Connector: Mantis (it's needed if you want to
 work with my private bug tracker (see below))
-		2.	Gradle IDE
 		3.	CMake Editor
 		4.	StatET for R
 		5.	ShellEd

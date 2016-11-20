@@ -2,7 +2,6 @@
 <bookmarks>
    <site url="http://mylyn-mantis.sourceforge.net/eclipse/update/" selected="true" name="Mylyn-Mantis Connector"/>
    <site url="http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/kepler/" selected="false" name="Papyrus Additional Components"/>
-   <site url="http://dist.springsource.com/release/TOOLS/gradle" selected="true" name="Gradle IDE"/>
    <site url="http://cmakeed.sourceforge.net/eclipse/" selected="true" name="CMake Editor"/>
    <site url="http://download.walware.de/eclipse-4.3/" selected="true" name="StatET for R"/>
    <site url="https://sourceforge.net/projects/shelled/files/shelled/update/" selected="true" name="ShellEd"/>
@@ -11,4 +10,6 @@
    <site url="https://dl.bintray.com/satyagraha/generic/1.8.1/" selected="true" name="GitHub Flavored Markdown Viewer"/>
    <site url="http://maven.apache.org/doxia/doxia-ide/eclipse/eclipse/" selected="true" name="Doxia Editors"/>
    <site url="http://ksquared.de/wfe/eclipse/update/" selected="true" name="WFE Wordfile Editor"/>
+   <site url="http://community-downloads.quest.com/toadsoft/toadextensions/eclipse/freeware/" selected="true" name="Toad Extension For Eclipse"/>
+   <site url="http://preview.appcelerator.com/aptana/studio3/standalone/update/rc/" selected="true" name="Aptana Studio"/>
 </bookmarks>
