@@ -13,6 +13,10 @@ open file `FIDATA.yoxos` from this repository.
 
 	After unpacking make the first run, it takes some time.
 
+	Links to download Yoxos Launcher:
+	*	[Yoxos](https://yoxos.eclipsesource.com/downloadlauncher.html)
+	*	[Chocolatey](https://chocolatey.org/packages/yoxos-launcher/)
+
 2.	Additional plugins for Eclipse
 
 	Unfortunately, some required plugins aren't provided by Yoxos, and
