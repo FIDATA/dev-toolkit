@@ -11,11 +11,11 @@ https://yoxos.eclipsesource.com/userdata/profile/ce4122db97d0e3997ad7040db041d75
 	Otherwise, if you have Yoxos Launcher >= 5.4.3 installed, you can
 open file `FIDATA.yoxos` from this repository.
 
-	After unpacking make the first run, it takes some time.
-
 	Links to download Yoxos Launcher:
 	*	[Yoxos](https://yoxos.eclipsesource.com/downloadlauncher.html)
 	*	[Chocolatey](https://chocolatey.org/packages/yoxos-launcher/)
+
+	The first run takes some time.
 
 2.	Additional plugins for Eclipse
 
