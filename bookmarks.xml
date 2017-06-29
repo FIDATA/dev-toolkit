@@ -1,15 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bookmarks>
-   <site url="http://mylyn-mantis.sourceforge.net/eclipse/update/" selected="true" name="Mylyn-Mantis Connector"/>
-   <site url="http://download.eclipse.org/modeling/mdt/papyrus/updates/releases/kepler/" selected="false" name="Papyrus Additional Components"/>
-   <site url="http://cmakeed.sourceforge.net/eclipse/" selected="true" name="CMake Editor"/>
-   <site url="http://download.walware.de/eclipse-4.3/" selected="true" name="StatET for R"/>
-   <site url="https://sourceforge.net/projects/shelled/files/shelled/update/" selected="true" name="ShellEd"/>
-   <site url="https://sourceforge.net/projects/eclipsejsonedit/files/update" selected="true" name="JSON Editor"/>
-   <site url="http://resteditor.sourceforge.net/eclipse/" selected="true" name="ReST Editor"/>
-   <site url="https://dl.bintray.com/satyagraha/generic/1.8.1/" selected="true" name="GitHub Flavored Markdown Viewer"/>
-   <site url="http://maven.apache.org/doxia/doxia-ide/eclipse/eclipse/" selected="true" name="Doxia Editors"/>
-   <site url="http://ksquared.de/wfe/eclipse/update/" selected="true" name="WFE Wordfile Editor"/>
-   <site url="http://community-downloads.quest.com/toadsoft/toadextensions/eclipse/freeware/" selected="true" name="Toad Extension For Eclipse"/>
-   <site url="http://preview.appcelerator.com/aptana/studio3/standalone/update/rc/" selected="true" name="Aptana Studio"/>
+   <site url="https://fidata.jfrog.io/fidata/p2" selected="true" name="FIDATA Eclipse"/>
 </bookmarks>
